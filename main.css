@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Sen&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(6, 51, 71);
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+header {
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: aqua;
+    font-family: 'Sen', sans-serif;
+    flex-wrap: wrap;
+    font-size: 150px;
+    line-height: 150px;
+    padding-left: 9px;
+    z-index: 1;
+}
+
+.descricao {
+    color: #868484;
+    font-family: 'Sen', sans-serif;
+    width: 40%;
+    margin-top: 30px;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+    font-family: 'Sen', sans-serif;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(28, 229, 229);
+}
+
+.Twitter {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Twitter img{
+    padding-right: 13px;
+}
+
+.Twitter p {
+    color: #868484;
+    font-family: 'Sen', sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+#avatar {
+    position: absolute;
+}
+
