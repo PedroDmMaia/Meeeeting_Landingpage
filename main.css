@@ -27,8 +27,6 @@ h1 {
     flex-wrap: wrap;
     font-size: 150px;
     line-height: 150px;
-    padding-left: 9px;
-    z-index: 1;
 }
 
 .descricao {
@@ -72,7 +70,49 @@ button:hover {
     font-size: 17px;
 }
 
-#avatar {
+.grid-images {
+    top: 0;
     position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
+.grid-images img{
+    position: absolute;
+    z-index: -1;
+    display: none;
+}
+
+.grid-images img:nth-child(3) {
+    display: block;
+    left: 3.5%;
+    top: 11%;
+}
+
+.grid-images img:nth-child(2) {
+    display: block;
+    right: 15%;
+    top: 4%;
+}
+
+.grid-images img:nth-child(5) {
+    display: block;
+    right: 31.5%;
+    top: 10%;
+}
+
+.grid-images img:nth-child(1) {
+    display: block;
+    right: 17.8%;
+    top: 45%
+}
+
+.grid-images img:nth-child(6) {
+    display: block;
+    right: 43.5%;
+    top: 48.9%;
+}
+
+.grid-images img:nth-child(4) {
+    display: block;
+}
