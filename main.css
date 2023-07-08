@@ -29,6 +29,11 @@ h1 {
     line-height: 150px;
 }
 
+#span {
+    position: relative;
+    z-index: -1;
+}
+
 .descricao {
     color: #868484;
     font-family: 'Sen', sans-serif;
@@ -80,39 +85,35 @@ button:hover {
 .grid-images img{
     position: absolute;
     z-index: -1;
-    display: none;
 }
 
 .grid-images img:nth-child(3) {
-    display: block;
-    left: 3.5%;
+    left: 4.4%;
     top: 11%;
 }
 
 .grid-images img:nth-child(2) {
-    display: block;
     right: 15%;
     top: 4%;
 }
 
 .grid-images img:nth-child(5) {
-    display: block;
     right: 31.5%;
     top: 10%;
 }
 
 .grid-images img:nth-child(1) {
-    display: block;
     right: 17.8%;
     top: 45%
 }
 
 .grid-images img:nth-child(6) {
-    display: block;
     right: 43.5%;
-    top: 48.9%;
+    top: 48.3%;
 }
 
 .grid-images img:nth-child(4) {
-    display: block;
+    height: 200px;
+    right: 24%;
+    bottom: 6%;
 }
